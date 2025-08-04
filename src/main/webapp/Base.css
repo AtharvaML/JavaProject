@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+/*body {
+	background: red;
+		/*url("https://images.search.yahoo.com/images/view;_ylt=AwrOt96Ys29odLEGmOCJzbkF;_ylu=c2VjA3NyBHNsawNpbWcEb2lkA2E2OTNkMTUyMDY1ZGY3YzZkNWJiN2JjM2ZhMTM2YWU3BGdwb3MDNARpdANiaW5n?back=https%3A%2F%2Fimages.search.yahoo.com%2Fsearch%2Fimages%3Fp%3Dstudent%2Bschool%2Bimage%26type%3DE210US1250G0%26fr%3Dmcafee%26fr2%3Dpiv-web%26tab%3Dorganic%26ri%3D4&w=2000&h=1333&imgurl=img.freepik.com%2Fpremium-photo%2Findian-school-students-group-sitting-classroom_130568-364.jpg%3Fw%3D2000&rurl=https%3A%2F%2Fwww.freepik.com%2Fpremium-ai-image%2Findian-school-students-group-sitting-classroom_63133954.htm&size=302KB&p=student+school+image&oid=a693d152065df7c6d5bb7bc3fa136ae7&fr2=piv-web&fr=mcafee&tt=Premium+Photo+%7C+Indian+school+students+group+sitting+at+classroom&b=0&ni=21&no=4&ts=&tab=organic&sigr=wO60UWQKfR6T&sigb=4117Su7NAE5x&sigi=Gsq3.FkOCvVZ&sigt=TxNQwRk_TFLb&.crumb=ZjgMhHQHfL/&fr=mcafee&fr2=piv-web&type=E210US1250G0")*/
+
+
+/*.container .jumbotron {
+	margin-top: 150px;
+}*/
+
+/* Base styling for all pages */
+body {
+    /*background: linear-gradient(to right, #e0f7fa, #ffffff);
+   
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;*/
+     background:
+    url("https://wallpaperaccess.com/full/1209535.jpg")
+}
+
+/* Center the jumbotron and form container */
+.container .jumbotrone {
+    background: rgba(255, 255, 255, 0.9);
+    margin-top: 80px;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Input fields */
+input[type="text"] {
+    width: 20%;
+    padding: 8px;
+    margin: 4px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    margin-top: 15px;
+}
+
+/* Table styling */
+table {
+    margin: 40px auto;
+    border-collapse: collapse;
+    width: 90%;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+table thead {
+    background-color: #007bff;
+    color: white;
+}
+
+table th,
+table td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Action Buttons */
+a.btn {
+    margin: 5px;
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+a.btn-success {
+    background-color: #28a745;
+    color: white;
+}
+
+a.btn-success:hover {
+    background-color: #218838;
+    text-decoration: none;
+}
+
+a.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+a.btn-primary:hover {
+    background-color: #0056b3;
+    text-decoration: none;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+    table, thead, tbody, th, td, tr {
+        display: block;
+    }
+
+    table {
+        border: none;
+    }
+
+    thead {
+        display: none;
+    }
+
+    tr {
+        margin-bottom: 15px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        padding: 10px;
+        border-radius: 8px;
+    }
+
+    td {
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 15px;
+        width: 45%;
+        text-align: left;
+        font-weight: bold;
+    }
+}
+
